@@ -1,0 +1,39 @@
+
+Here's a quick summary of how you set up your Eye Optics website using GitHub Pages and InfinityFree:
+
+Step-by-Step Overview:
+Created a Website Repository on GitHub:
+
+You created a GitHub repository and uploaded your website files (e.g., index.html) to the repository.
+Set Up GitHub Pages:
+
+Enabled GitHub Pages for the repository by selecting the main branch under the GitHub Pages settings.
+Configured your site to be publicly accessible using the GitHub Pages URL (e.g., https://yourusername.github.io/repository-name).
+Registered a Free Domain with InfinityFree:
+
+You obtained a free domain (eyeoptics.42web.io) using InfinityFree.
+Verified that your domain was active and linked to your InfinityFree account.
+Linked InfinityFree Domain to GitHub Pages Using DNS Records:
+
+Updated the DNS Records for your domain in InfinityFree’s control panel:
+Added A Records pointing to GitHub Pages’ IP addresses:
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+Set up a CNAME Record for www.eyeoptics.42web.io to point to your GitHub username’s GitHub Pages (e.g., yourusername.github.io).
+Configured Cloudflare for Domain Management:
+
+Added your domain to Cloudflare for enhanced DNS management.
+Updated your domain’s nameservers to Cloudflare’s (found under the Cloudflare dashboard).
+Set up CNAME Records and A Records in Cloudflare to point to GitHub Pages.
+Verified Domain and HTTPS Setup:
+
+Ensured that both https://eyeoptics.42web.io and https://www.eyeoptics.42web.io were correctly pointing to your GitHub Pages site.
+Enabled HTTPS and SSL/TLS security in Cloudflare and GitHub.
+Final Testing and Deployment:
+
+Successfully tested the site using both the root domain (eyeoptics.42web.io) and the www subdomain.
+Ensured that everything was working without errors, and your site was live for public access.
+Outcome:
+Your Eye Optics website is now hosted for free using GitHub Pages, mapped to a custom domain (eyeoptics.42web.io) using InfinityFree and managed through Cloudflare for security and performance optimization.
